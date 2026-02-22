@@ -15,7 +15,3 @@ SFML is a highly accessible graphical library that provides a simple interface t
 
 Using this library allowed me to focus on the game's logic and event-driven architecture rather than low-level system details.
 
-## Credits
-
-* **Instructor:** Dr. Ramtin Khosravi
-* **Teaching Assistants / Assignment Designers:** Hesam Ramezanian, Shahriar Attar, Amir Ali Vahidi, Erfan Mirshams, Mobina Mehrazar, Kourosh Alinaghi, Soroush Sahraei 
