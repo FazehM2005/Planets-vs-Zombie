@@ -1,30 +1,21 @@
 # Plants vs. Zombies Clone
 
-This project is a clone of the famous Plants vs. Zombies game, developed using C++ and the SFML graphics library. It was implemented as Computer Assignment #5 for the Advanced Programming course, focusing heavily on Object-Oriented Design and Event-Driven Programming.
+This repository contains my personal implementation of the classic Plants vs. Zombies game. It was developed as Computer Assignment #5 for the Advanced Programming course.
 
-## Features
+I built this entire project completely from scratch and without the use of any AI code generation tools. The goal was to deeply understand and manually implement core software engineering concepts, specifically Object-Oriented Design and Event-Driven Programming.
 
-* **Gameplay:** Tower Defense style game where players defend their home against waves of zombies across multiple parallel lanes.
-* **Economy System:** Collect "Sun" currency falling from the sky or produced by Sunflowers to purchase and plant defenses.
-* **Plant Varieties:**
-  * **Offensive:** Peashooters, Snow Peas (which halve zombie movement speed), and Melon-pults (featuring parabolic projectile physics).
-  * **Economy:** Sunflowers.
-  * **Defensive:** High-health plants (like Wall-nuts) to stall zombie progression.
-* **Zombie Varieties:** Includes Regular zombies and Gargantuars (with higher health and damage).
-* **Dynamic Configuration:** Game mechanics such as zombie attack intensity, spawn intervals, entity health, speed, and prices can be customized via an external configuration file.
-* **Audio:** Includes background music during gameplay.
+## About the Library (SFML)
 
-## Tech Stack
+This game is powered by C++ and the Simple and Fast Multimedia Library (SFML). 
 
-* **Language:** C++ (C++20 Standard)
-* **Graphics & Audio:** SFML (Simple and Fast Multimedia Library)
-* **Architecture:** Multi-file project design
-* **Build System:** Makefile
+SFML is a highly accessible graphical library that provides a simple interface to the various components of a computer. In this project, SFML handles all the heavy lifting for:
+* Rendering 2D graphics and visual effects.
+* Managing user inputs (mouse clicks and drags for planting).
+* Playing background music and audio.
 
-## How to Run
+Using this library allowed me to focus on the game's logic and event-driven architecture rather than low-level system details.
 
-To run this game locally, ensure you have a C++ compiler and the SFML library installed on your system.
+## Credits
 
-1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/](https://github.com/)<username>/<repository_name>.git
+* **Instructor:** Dr. Ramtin Khosravi
+* **Teaching Assistants / Assignment Designers:** Hesam Ramezanian, Shahriar Attar, Amir Ali Vahidi, Erfan Mirshams, Mobina Mehrazar, Kourosh Alinaghi, Soroush Sahraei 
